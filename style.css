@@ -4,7 +4,9 @@ Updated: 20 July, 2020
 Notes: Hand Coded for Fiverr
 ===================================*/
 
+
 /* Header CSS Start */
+
 .header-area {
     padding: 60px 0;
     font-size: 18px;
@@ -22,9 +24,12 @@ Notes: Hand Coded for Fiverr
     color: #f8352e;
 }
 
+
 /* Header CSS End */
 
+
 /* Welcome Area CSS */
+
 .banner-form h3 {
     color: #073763;
     font-size: 22px;
@@ -63,10 +68,12 @@ Notes: Hand Coded for Fiverr
     text-align: center;
 }
 
+
 /* Welcome Area CSS End */
 
 
 /* Feature Area CSS Start */
+
 .section-padding {
     padding: 100px 0;
 }
@@ -91,10 +98,12 @@ Notes: Hand Coded for Fiverr
     vertical-align: bottom;
 }
 
+
 /* Feature Area CSS End */
 
 
 /* Service Area CSS Start */
+
 .single-service h3 {
     font-size: 22px;
     font-weight: 600;
@@ -118,9 +127,12 @@ Notes: Hand Coded for Fiverr
     box-shadow: 0 0 10px #ddd;
 }
 
+
 /* Service Area CSS End */
 
+
 /* CTA Area Start */
+
 .cta-area {
     background: #f7352e;
     color: #fff;
@@ -134,9 +146,12 @@ Notes: Hand Coded for Fiverr
     line-height: 1.5;
 }
 
+
 /* CTA Area End */
 
+
 /* Book Area CSS Start */
+
 .book-text {
     font-size: 18px;
 }
@@ -179,7 +194,6 @@ Notes: Hand Coded for Fiverr
     font-weight: 600;
 }
 
-
 .purchase-button button span {
     position: absolute;
     left: 0;
@@ -193,7 +207,40 @@ Notes: Hand Coded for Fiverr
     border-bottom-left-radius: 5px;
 }
 
+.book-icon {
+    background: #f8352e;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.single-book-text {
+    position: relative;
+    z-index: 1;
+    padding-left: 50px;
+}
+
+.book-text .book-icon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.purchase-button button:hover {
+    background-color: #f8352e;
+    color: #fff;
+}
+
+
 /* Book Area CSS End */
+
+
+/* Footer Top CSS Start */
 
 .contact-box {
     background: #fafafa;
@@ -214,6 +261,18 @@ Notes: Hand Coded for Fiverr
     margin-bottom: 10px;
     text-transform: capitalize;
 }
+
+.contact-icon {
+    color: #f8352e;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+
+/* Footer Top CSS End */
+
+
+/* Footer CSS Start */
 
 .footer-area {
     background: #073763;
@@ -242,37 +301,5 @@ Notes: Hand Coded for Fiverr
     color: #f8352e;
 }
 
-.book-icon {
-    background: #f8352e;
-    color: #fff;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    text-align: center;
-    line-height: 30px;
-    font-size: 14px;
-}
 
-.single-book-text {
-    position: relative;
-    z-index: 1;
-    padding-left: 50px;
-}
-
-.book-text .book-icon {
-    position: absolute;
-    left: 0;
-    top: 5px;
-}
-
-.contact-icon {
-    color: #f8352e;
-    display: inline-block;
-    padding-right: 5px;
-}
-
-.purchase-button button:hover {
-    background-color: #f8352e;
-    color: #fff;
-}
+/* Footer CSS End */
