@@ -1,0 +1,278 @@
+/*=================================
+Author: Mohammad Saifur Rahman
+Updated: 20 July, 2020
+Notes: Hand Coded for Fiverr
+===================================*/
+
+/* Header CSS Start */
+.header-area {
+    padding: 60px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-area h1 {
+    color: #f8352e;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.header-area span {
+    color: #f8352e;
+}
+
+/* Header CSS End */
+
+/* Welcome Area CSS */
+.banner-form h3 {
+    color: #073763;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.banner-form input {
+    border: 1px solid #e2e2e2;
+    padding: 12px;
+    border-radius: 2px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.banner-form input::placeholder {
+    color: #7e7e7e;
+}
+
+.banner-form form {
+    margin-top: 30px;
+}
+
+.banner-form input[type=submit],
+.banner-form button[type=submit] {
+    background-color: #f7352e;
+    color: #fff;
+    margin: 30px 0;
+    border: 1px solid #f7352e;
+}
+
+.banner-form {
+    border: 1px solid #e2e2e2;
+    padding: 50px 30px 30px;
+    text-align: center;
+}
+
+/* Welcome Area CSS End */
+
+
+/* Feature Area CSS Start */
+.section-padding {
+    padding: 100px 0;
+}
+
+.feature-text {
+    font-size: 18px;
+}
+
+.feature-text strong {
+    color: #073763;
+    font-weight: 600;
+}
+
+.red-girl {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.red-girl-tcell {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+/* Feature Area CSS End */
+
+
+/* Service Area CSS Start */
+.single-service h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f8352e;
+    margin: 22px 0;
+}
+
+.single-service {
+    padding: 50px 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: .3s;
+    margin: 15px 0;
+}
+
+.gray-bg {
+    background-color: #f9f9f9;
+}
+
+.single-service:hover {
+    box-shadow: 0 0 10px #ddd;
+}
+
+/* Service Area CSS End */
+
+/* CTA Area Start */
+.cta-area {
+    background: #f7352e;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.cta-area h2 {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+/* CTA Area End */
+
+/* Book Area CSS Start */
+.book-text {
+    font-size: 18px;
+}
+
+.book-text b {
+    font-weight: 600;
+}
+
+.book-text p {
+    margin-bottom: 25px;
+}
+
+.purchase-button button {
+    background: #f5f5f5;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #073763;
+    position: relative;
+    z-index: 1;
+    padding-left: 70px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.book-cover-bottom {
+    padding: 70px 0;
+    font-size: 18px;
+}
+
+.purchase-button {
+    color: #073763;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.purchase-button button span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #f8352d;
+    color: #fff;
+    font-size: 22px;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* Book Area CSS End */
+
+.contact-box {
+    background: #fafafa;
+    padding: 50px;
+    height: 100%;
+}
+
+.contact-box h4 {
+    color: #f8352e;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.contact-box h5 {
+    color: #073763;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.footer-area {
+    background: #073763;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-area li {
+    display: inline-block;
+}
+
+.footer-area li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+.footer-area li a:hover {
+    color: #f8352e;
+}
+
+.book-icon {
+    background: #f8352e;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.single-book-text {
+    position: relative;
+    z-index: 1;
+    padding-left: 50px;
+}
+
+.book-text .book-icon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.contact-icon {
+    color: #f8352e;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.purchase-button button:hover {
+    background-color: #f8352e;
+    color: #fff;
+}
